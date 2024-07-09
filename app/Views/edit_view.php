@@ -21,13 +21,13 @@
         </div>
 
         <div class="form-group">
-          <label for="">Harga Beli</label>
+          <label for="">Price</label>
           <input type="number" value="<?= $item['price'];?>"
           name="price" required class="form-control">
         </div>
 
         <div class="form-group">
-          <label for="">Harga Jual</label>
+          <label for="">Cost</label>
           <input type="number" value="<?= $item['cost'];?>" name="cost" required class="form-control">
         </div>
 
