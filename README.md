@@ -24,100 +24,7 @@
 > - PHP +8.2
 > - Composer (If you want to code it manually)
 
-<<<<<<< HEAD
-## Tree
 
-app
- ┣ Config
- ┃ ┣ Boot
- ┃ ┃ ┣ development.php
- ┃ ┃ ┣ production.php
- ┃ ┃ ┗ testing.php
- ┃ ┣ App.php
- ┃ ┣ Autoload.php
- ┃ ┣ Cache.php
- ┃ ┣ Constants.php
- ┃ ┣ ContentSecurityPolicy.php
- ┃ ┣ Cookie.php
- ┃ ┣ Cors.php
- ┃ ┣ CURLRequest.php
- ┃ ┣ Database.php
- ┃ ┣ DocTypes.php
- ┃ ┣ Email.php
- ┃ ┣ Encryption.php
- ┃ ┣ Events.php
- ┃ ┣ Exceptions.php
- ┃ ┣ Feature.php
- ┃ ┣ Filters.php
- ┃ ┣ ForeignCharacters.php
- ┃ ┣ Format.php
- ┃ ┣ Generators.php
- ┃ ┣ Honeypot.php
- ┃ ┣ Images.php
- ┃ ┣ Kint.php
- ┃ ┣ Logger.php
- ┃ ┣ Migrations.php
- ┃ ┣ Mimes.php
- ┃ ┣ Modules.php
- ┃ ┣ Optimize.php
- ┃ ┣ Pager.php
- ┃ ┣ Paths.php
- ┃ ┣ Publisher.php
- ┃ ┣ Routes.php
- ┃ ┣ Routing.php
- ┃ ┣ Security.php
- ┃ ┣ Services.php
- ┃ ┣ Session.php
- ┃ ┣ Toolbar.php
- ┃ ┣ UserAgents.php
- ┃ ┣ Validation.php
- ┃ ┗ View.php
- ┣ Controllers
- ┃ ┣ BaseController.php
- ┃ ┣ Home.php
- ┃ ┗ Item.php
- ┣ Database
- ┃ ┣ Migrations
- ┃ ┃ ┗ .gitkeep
- ┃ ┗ Seeds
- ┃ ┃ ┗ .gitkeep
- ┣ Filters
- ┃ ┗ .gitkeep
- ┣ Helpers
- ┃ ┗ .gitkeep
- ┣ Language
- ┃ ┣ en
- ┃ ┃ ┗ Validation.php
- ┃ ┗ .gitkeep
- ┣ Libraries
- ┃ ┗ .gitkeep
- ┣ Models
- ┃ ┣ .gitkeep
- ┃ ┗ ItemModel.php
- ┣ ThirdParty
- ┃ ┗ .gitkeep
- ┣ Views
- ┃ ┣ errors
- ┃ ┃ ┣ cli
- ┃ ┃ ┃ ┣ error_404.php
- ┃ ┃ ┃ ┣ error_exception.php
- ┃ ┃ ┃ ┗ production.php
- ┃ ┃ ┗ html
- ┃ ┃ ┃ ┣ debug.css
- ┃ ┃ ┃ ┣ debug.js
- ┃ ┃ ┃ ┣ error_404.php
- ┃ ┃ ┃ ┣ error_exception.php
- ┃ ┃ ┃ ┗ production.php
- ┃ ┣ add_view.php
- ┃ ┣ edit_view.php
- ┃ ┣ footer_view.php
- ┃ ┣ header_view.php
- ┃ ┣ item_view.php
- ┃ ┗ welcome_message.php
- ┣ .htaccess
- ┣ Common.php
- ┗ index.html
-=======
 ## How to 
 ### Indonesia
 > 1. Pertama,aktifkan XAMPP (bagian Apache dan MySQLI)
@@ -136,4 +43,9 @@ app
 > 5. Run CMD from the location of the folder you put 
 > 6. type **php spark serve** then type **localhost:(your port)**
 > 7. CRUD template is running smoothly and well
->>>>>>> cfcb194 (Publish as Production)
+
+## Preview
+![Screenshot (382)](https://github.com/icaluwu/Basic-CRUD-CodeIgniter4/assets/134307726/d35df3b5-b7a7-4305-b2da-b28e8e5ebbde)
+![Screenshot (381)](https://github.com/icaluwu/Basic-CRUD-CodeIgniter4/assets/134307726/27d014d6-ec78-427c-80ae-d80e9fa4c9d2)
+![Screenshot (380)](https://github.com/icaluwu/Basic-CRUD-CodeIgniter4/assets/134307726/52dc4bff-f4b6-4c2d-ab2d-1c6bc4ff7ed6)
+![Screenshot (379)](https://github.com/icaluwu/Basic-CRUD-CodeIgniter4/assets/134307726/7b1c0b64-295e-46c9-afa9-cc8c3104417c)
