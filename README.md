@@ -1,5 +1,7 @@
 # Basic CRUD CodeIgniter 4
 
+# V.1.0.0
+
 ## Motivations
 ### Indonesia
 > Halo semuanya pengguna ***Github***,saya IcalUwU ingin membagikan hasil ***Codingan*** saya
@@ -22,6 +24,7 @@
 > - PHP +8.2
 > - Composer (If you want to code it manually)
 
+<<<<<<< HEAD
 ## Tree
 
 app
@@ -114,3 +117,23 @@ app
  ┣ .htaccess
  ┣ Common.php
  ┗ index.html
+=======
+## How to 
+### Indonesia
+> 1. Pertama,aktifkan XAMPP (bagian Apache dan MySQLI)
+> 2. Extract Download ZIP ini / ***Codingan*** ini jika ditulis manual
+> 3. Taruh folder di htdocs (jika XAMPP)
+> 4. Import file **store.sql** di phpmyadmin
+> 5. Jalankan CMD dari lokasi folder yang kalian tempatkan
+> 6. type **php spark serve** lalu ketik **localhost:(port kalian)
+> 7. Template CRUD berjalan mulus dan bagus
+
+### English
+> 1. First, enable XAMPP (parts of Apache and MySQLI) 
+> 2. Extract Download this ZIP / ***This encoding*** if written manually 
+> 3. Place the folder in htdocs (if XAMPP) 
+> 4. Import file **store.sql** in phpmyadmin 
+> 5. Run CMD from the location of the folder you put 
+> 6. type **php spark serve** then type **localhost:(your port)**
+> 7. CRUD template is running smoothly and well
+>>>>>>> cfcb194 (Publish as Production)
