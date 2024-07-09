@@ -15,7 +15,7 @@
 <body>
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-info">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="<?= base_url();?>">Store Item</a>
       <button class="navbar-toggler d-lg-none" type="button" datatoggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
     </div>

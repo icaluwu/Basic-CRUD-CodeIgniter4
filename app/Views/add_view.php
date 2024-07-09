@@ -1,4 +1,4 @@
-<div class="container p-5">
+<div class="container-fluid p-5">
   <a href="<?= base_url('item');?>" class="btn btn-secondary mb-2">Kembali Kembali</a>
   <div class="card">
     <div class="card-header bg-info text-white">

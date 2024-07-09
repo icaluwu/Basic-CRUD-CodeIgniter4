@@ -1,4 +1,4 @@
-<div class="container pt-5">
+<div class="container-fluid pt-5">
   <a href="<?= base_url('item/add');?>" class="btn btn-success mb-2">Add Item</a>
   <div class="card">
     <div class="card-header bg-info text-white">
