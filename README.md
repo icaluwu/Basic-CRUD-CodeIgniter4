@@ -24,93 +24,93 @@
 
 ## Tree
 
-📦app
- ┣ 📂Config
- ┃ ┣ 📂Boot
- ┃ ┃ ┣ 📜development.php
- ┃ ┃ ┣ 📜production.php
- ┃ ┃ ┗ 📜testing.php
- ┃ ┣ 📜App.php
- ┃ ┣ 📜Autoload.php
- ┃ ┣ 📜Cache.php
- ┃ ┣ 📜Constants.php
- ┃ ┣ 📜ContentSecurityPolicy.php
- ┃ ┣ 📜Cookie.php
- ┃ ┣ 📜Cors.php
- ┃ ┣ 📜CURLRequest.php
- ┃ ┣ 📜Database.php
- ┃ ┣ 📜DocTypes.php
- ┃ ┣ 📜Email.php
- ┃ ┣ 📜Encryption.php
- ┃ ┣ 📜Events.php
- ┃ ┣ 📜Exceptions.php
- ┃ ┣ 📜Feature.php
- ┃ ┣ 📜Filters.php
- ┃ ┣ 📜ForeignCharacters.php
- ┃ ┣ 📜Format.php
- ┃ ┣ 📜Generators.php
- ┃ ┣ 📜Honeypot.php
- ┃ ┣ 📜Images.php
- ┃ ┣ 📜Kint.php
- ┃ ┣ 📜Logger.php
- ┃ ┣ 📜Migrations.php
- ┃ ┣ 📜Mimes.php
- ┃ ┣ 📜Modules.php
- ┃ ┣ 📜Optimize.php
- ┃ ┣ 📜Pager.php
- ┃ ┣ 📜Paths.php
- ┃ ┣ 📜Publisher.php
- ┃ ┣ 📜Routes.php
- ┃ ┣ 📜Routing.php
- ┃ ┣ 📜Security.php
- ┃ ┣ 📜Services.php
- ┃ ┣ 📜Session.php
- ┃ ┣ 📜Toolbar.php
- ┃ ┣ 📜UserAgents.php
- ┃ ┣ 📜Validation.php
- ┃ ┗ 📜View.php
- ┣ 📂Controllers
- ┃ ┣ 📜BaseController.php
- ┃ ┣ 📜Home.php
- ┃ ┗ 📜Item.php
- ┣ 📂Database
- ┃ ┣ 📂Migrations
- ┃ ┃ ┗ 📜.gitkeep
- ┃ ┗ 📂Seeds
- ┃ ┃ ┗ 📜.gitkeep
- ┣ 📂Filters
- ┃ ┗ 📜.gitkeep
- ┣ 📂Helpers
- ┃ ┗ 📜.gitkeep
- ┣ 📂Language
- ┃ ┣ 📂en
- ┃ ┃ ┗ 📜Validation.php
- ┃ ┗ 📜.gitkeep
- ┣ 📂Libraries
- ┃ ┗ 📜.gitkeep
- ┣ 📂Models
- ┃ ┣ 📜.gitkeep
- ┃ ┗ 📜ItemModel.php
- ┣ 📂ThirdParty
- ┃ ┗ 📜.gitkeep
- ┣ 📂Views
- ┃ ┣ 📂errors
- ┃ ┃ ┣ 📂cli
- ┃ ┃ ┃ ┣ 📜error_404.php
- ┃ ┃ ┃ ┣ 📜error_exception.php
- ┃ ┃ ┃ ┗ 📜production.php
- ┃ ┃ ┗ 📂html
- ┃ ┃ ┃ ┣ 📜debug.css
- ┃ ┃ ┃ ┣ 📜debug.js
- ┃ ┃ ┃ ┣ 📜error_404.php
- ┃ ┃ ┃ ┣ 📜error_exception.php
- ┃ ┃ ┃ ┗ 📜production.php
- ┃ ┣ 📜add_view.php
- ┃ ┣ 📜edit_view.php
- ┃ ┣ 📜footer_view.php
- ┃ ┣ 📜header_view.php
- ┃ ┣ 📜item_view.php
- ┃ ┗ 📜welcome_message.php
- ┣ 📜.htaccess
- ┣ 📜Common.php
- ┗ 📜index.html
+app
+ ┣ Config
+ ┃ ┣ Boot
+ ┃ ┃ ┣ development.php
+ ┃ ┃ ┣ production.php
+ ┃ ┃ ┗ testing.php
+ ┃ ┣ App.php
+ ┃ ┣ Autoload.php
+ ┃ ┣ Cache.php
+ ┃ ┣ Constants.php
+ ┃ ┣ ContentSecurityPolicy.php
+ ┃ ┣ Cookie.php
+ ┃ ┣ Cors.php
+ ┃ ┣ CURLRequest.php
+ ┃ ┣ Database.php
+ ┃ ┣ DocTypes.php
+ ┃ ┣ Email.php
+ ┃ ┣ Encryption.php
+ ┃ ┣ Events.php
+ ┃ ┣ Exceptions.php
+ ┃ ┣ Feature.php
+ ┃ ┣ Filters.php
+ ┃ ┣ ForeignCharacters.php
+ ┃ ┣ Format.php
+ ┃ ┣ Generators.php
+ ┃ ┣ Honeypot.php
+ ┃ ┣ Images.php
+ ┃ ┣ Kint.php
+ ┃ ┣ Logger.php
+ ┃ ┣ Migrations.php
+ ┃ ┣ Mimes.php
+ ┃ ┣ Modules.php
+ ┃ ┣ Optimize.php
+ ┃ ┣ Pager.php
+ ┃ ┣ Paths.php
+ ┃ ┣ Publisher.php
+ ┃ ┣ Routes.php
+ ┃ ┣ Routing.php
+ ┃ ┣ Security.php
+ ┃ ┣ Services.php
+ ┃ ┣ Session.php
+ ┃ ┣ Toolbar.php
+ ┃ ┣ UserAgents.php
+ ┃ ┣ Validation.php
+ ┃ ┗ View.php
+ ┣ Controllers
+ ┃ ┣ BaseController.php
+ ┃ ┣ Home.php
+ ┃ ┗ Item.php
+ ┣ Database
+ ┃ ┣ Migrations
+ ┃ ┃ ┗ .gitkeep
+ ┃ ┗ Seeds
+ ┃ ┃ ┗ .gitkeep
+ ┣ Filters
+ ┃ ┗ .gitkeep
+ ┣ Helpers
+ ┃ ┗ .gitkeep
+ ┣ Language
+ ┃ ┣ en
+ ┃ ┃ ┗ Validation.php
+ ┃ ┗ .gitkeep
+ ┣ Libraries
+ ┃ ┗ .gitkeep
+ ┣ Models
+ ┃ ┣ .gitkeep
+ ┃ ┗ ItemModel.php
+ ┣ ThirdParty
+ ┃ ┗ .gitkeep
+ ┣ Views
+ ┃ ┣ errors
+ ┃ ┃ ┣ cli
+ ┃ ┃ ┃ ┣ error_404.php
+ ┃ ┃ ┃ ┣ error_exception.php
+ ┃ ┃ ┃ ┗ production.php
+ ┃ ┃ ┗ html
+ ┃ ┃ ┃ ┣ debug.css
+ ┃ ┃ ┃ ┣ debug.js
+ ┃ ┃ ┃ ┣ error_404.php
+ ┃ ┃ ┃ ┣ error_exception.php
+ ┃ ┃ ┃ ┗ production.php
+ ┃ ┣ add_view.php
+ ┃ ┣ edit_view.php
+ ┃ ┣ footer_view.php
+ ┃ ┣ header_view.php
+ ┃ ┣ item_view.php
+ ┃ ┗ welcome_message.php
+ ┣ .htaccess
+ ┣ Common.php
+ ┗ index.html
