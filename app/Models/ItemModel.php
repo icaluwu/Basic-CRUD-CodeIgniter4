@@ -20,4 +20,12 @@ class ItemModel extends Model
     $builder = $this->db->table($this->table);
     return $builder->insert($data);
   }
+
+  public function editItem($data,$id)
+  {
+    $builder = $this->db->table($this->table);
+    $builder->where('item_id', $id);
+    return $builder->update($data);
+  }
+
 }
