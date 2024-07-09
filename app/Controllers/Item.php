@@ -40,7 +40,7 @@ class Item extends Controller
   }
 
   public function edit($id)
-{
+  {
     $model = new ItemModel;
     $getItem = $model->getItem($id);
     if(isset($getItem))
@@ -58,7 +58,7 @@ class Item extends Controller
     }else{
       echo '<script> alert("Item ID '.$id.' Not found"); window.location="'.base_url('item').'" </script>';
     }
-}
+  }
 
   public function update()
   {
@@ -74,5 +74,19 @@ class Item extends Controller
     echo '<script> alert("Item was succesfully changed"); window.location="'.base_url('item').'" </script>';
   }
 
+  public function delete($id)
+{
+    $model = new ItemModel;
+    $getItem = $model->getItem($id);
+
+    if(!empty($getItem))
+    {
+        $model->deleteItem($id);
+        echo '<script> alert("Delete success"); window.location="'.base_url('item').'"</script>';
+    } 
+    else{ 
+        echo '<script> alert("Delete failed !, ID Item '.$id.' not found"); window.location="'.base_url('item').'"</script>';
+    }
+}
 
 }

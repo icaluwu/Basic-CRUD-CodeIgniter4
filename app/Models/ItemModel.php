@@ -31,4 +31,10 @@ class ItemModel extends Model
   $this->update('item');
 }
 
+public function deleteItem($id)
+  {
+  $builder = $this->db->table($this->table);
+  return $builder->delete(['itemid' => $id]);
+  }
+
 }
