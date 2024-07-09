@@ -23,9 +23,9 @@
                 <td><?= $no;?></td>
                 <td><?= $isi['item_name'];?></td>
                 <td><?= $isi['qty'];?></td>
-                <td>Rp<?= number_format($isi['price']);?>,-
+                <td>Rp.<?= number_format($isi['price']);?>,-
                 </td>
-                <td>Rp<?= number_format($isi['cost']);?>,-
+                <td>Rp.<?= number_format($isi['cost']);?>,-
                 </td>
                 <td>
                   <a href="<?= base_url('item/edit/'. $isi['item_id']);?>" class="btn btn-success"> Edit</a>
