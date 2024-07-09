@@ -23,6 +23,7 @@
 > - Composer (If you want to code it manually)
 
 ## Tree
+
 📦app
  ┣ 📂Config
  ┃ ┣ 📂Boot
