@@ -40,13 +40,17 @@ class Item extends Controller
   }
 
   public function edit($id)
-  {
+{
     $model = new ItemModel;
     $getItem = $model->getItem($id);
     if(isset($getItem))
     {
       $data['item'] = $getItem;
-      $data['title'] = 'Edit '.$getItem->item_name;
+      if(isset($getItem['item_name'])) {
+        $data['title'] = 'Edit '.$getItem['item_name'];
+      } else {
+        $data['title'] = 'Edit Item'; // Default title if "item_name" key does not exist
+      }
 
       echo view('header_view', $data);
       echo view('edit_view', $data);
@@ -54,12 +58,12 @@ class Item extends Controller
     }else{
       echo '<script> alert("Item ID '.$id.' Not found"); window.location="'.base_url('item').'" </script>';
     }
-  }
+}
 
   public function update()
   {
     $model = new ItemModel;
-    $id = $this->request->getPost('item_id');
+    $id = $this->request->getPost('itemid');
     $data = array(
       'item_name'=> $this->request->getPost('name'),
       'qty'  => $this->request->getPost('qty'),

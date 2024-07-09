@@ -28,8 +28,8 @@
                 <td>Rp.<?= number_format($isi['cost']);?>,-
                 </td>
                 <td>
-                  <a href="<?= base_url('item/edit/'. $isi['item_id']);?>" class="btn btn-success"> Edit</a>
-                <a href="<?= base_url('item/delete/'. $isi['item_id']);?>" onclick="javascript:return confirm('Do you want to delete ?')" class="btn btn-danger">
+                  <a href="<?= base_url('item/edit/'. $isi['itemid']);?>" class="btn btn-success"> Edit</a>
+                <a href="<?= base_url('item/delete/'. $isi['itemid']);?>" onclick="javascript:return confirm('Do you want to delete ?')" class="btn btn-danger">
                 Delete</a>
               </td>
             </tr>
