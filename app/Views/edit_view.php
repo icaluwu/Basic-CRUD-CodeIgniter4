@@ -1,5 +1,5 @@
 <div class="container-fluid p-5">
-  <a href="<?= base_url('item');?>" class="btn btn-secondary mb-2">Kembali</a>
+  <a href="<?= base_url('item');?>" class="btn btn-secondary mb-2">Back</a>
   <div class="card">
     <div class="card-header bg-info text-white">
       <h4 class="card-title">Edit item : <?= $item['item_name'];?></h4>
@@ -11,7 +11,7 @@
         <div class="form-group">
           <label for="">Item Name</label>
           <input type="text" value="<?= $item['item_name'];?>"
-          name="nama" required class="form-control">
+          name="name" required class="form-control">
         </div>
 
         <div class="form-group">
@@ -23,12 +23,12 @@
         <div class="form-group">
           <label for="">Harga Beli</label>
           <input type="number" value="<?= $item['price'];?>"
-          name="beli" required class="form-control">
+          name="price" required class="form-control">
         </div>
 
         <div class="form-group">
           <label for="">Harga Jual</label>
-          <input type="number" value="<?= $item['cost'];?>" name="jual" required class="form-control">
+          <input type="number" value="<?= $item['cost'];?>" name="cost" required class="form-control">
         </div>
 
         <input type="hidden" value="<?= $item['itemid'];?>"

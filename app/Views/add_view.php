@@ -1,5 +1,5 @@
 <div class="container-fluid p-5">
-  <a href="<?= base_url('item');?>" class="btn btn-secondary mb-2">Kembali Kembali</a>
+  <a href="<?= base_url('item');?>" class="btn btn-secondary mb-2">Back</a>
   <div class="card">
     <div class="card-header bg-info text-white">
       <h4 class="card-title">Add Item</h4>
